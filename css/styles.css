@@ -41,7 +41,15 @@ ul {
 .logo.light span {
   color: var(--footer-text-color);
 }
-
+/* .button { */
+/* background-color: #ffffff; */
+/* color: var(--logo-text-color); */
+/* } */
+/* .button:hover { */
+/* background-color: #4d5ae5; */
+/* color: antiquewhite; */
+/* } */
+/*  */
 .title {
   font-size: 36px;
   font-weight: 700;
