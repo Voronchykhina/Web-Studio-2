@@ -20,6 +20,10 @@ ul {
   list-style-type: none;
 }
 
+address {
+  font-style: normal;
+}
+
 .link {
   text-decoration: none;
 }
@@ -69,10 +73,10 @@ ul {
 }
 
 /*! ----------HEADER -------*/
-.header-contact {
-  font-style: normal;
-}
-
+/* .header-contact { */
+/* font-style: normal; */
+/* } */
+/*  */
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
