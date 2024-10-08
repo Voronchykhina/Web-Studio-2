@@ -2,9 +2,10 @@
   --title-color: #2e2f42;
   --main-text-color: #434455;
   --second-text-color: #ffffff;
-  --logo-text-color: #4d5ae5;
-  --link-accent-color: #404bbf;
+  --normal-iris-color: #4d5ae5;
+  --active-okean-color: #404bbf;
   --footer-text-color: #e7e9fc;
+  --portfolio-nav-color: #f4f4fd;
 }
 
 body {
@@ -31,7 +32,7 @@ ul {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 3%;
-  color: var(--logo-text-color);
+  color: var(--normal-iris-color);
 }
 
 .logo.dark span {
@@ -41,15 +42,7 @@ ul {
 .logo.light span {
   color: var(--footer-text-color);
 }
-/* .button { */
-/* background-color: #ffffff; */
-/* color: var(--logo-text-color); */
-/* } */
-/* .button:hover { */
-/* background-color: #4d5ae5; */
-/* color: antiquewhite; */
-/* } */
-/*  */
+
 .title {
   font-size: 36px;
   /* font-weight: 700; */
@@ -86,7 +79,7 @@ ul {
 }
 
 .header-menu-link:active {
-  color: var(--link-accent-color);
+  color: var(--active-okean-color);
 }
 
 .header-contact-link {
@@ -97,8 +90,8 @@ ul {
   color: var(--main-text-color);
 }
 
-.header-contact-link:active {
-  color: var(--link-accent-color);
+.header-menu-link:active {
+  color: var(--active-okean-color);
 }
 
 /*! ----------HERO-------*/
@@ -123,9 +116,14 @@ ul {
   line-height: 1.5;
   /* letter-spacing: 4%; */
   /* text-align: left; */
+  background-color: var(--normal-iris-color);
   color: var(--second-text-color);
   text-align: center;
   cursor: pointer;
+}
+
+.hero-btn {
+  background-color: var(--active-okean-color);
 }
 
 /*! ----------UBER UNS -------*/
@@ -207,8 +205,20 @@ ul {
 
 .portfolio-filter-item {
 }
+
 .portfolio-btn {
   cursor: pointer;
+  background-color: var(--portfolio-nav-color);
+  color: var(--normal-iris-color);
+}
+.portfolio-btn:hover {
+  background-color: var(--active-okean-color);
+  color: var(--second-text-color);
+}
+
+.portfolio-btn:focus {
+  background-color: var(--active-okean-color);
+  color: var(--second-text-color);
 }
 
 .portfolio-list {
